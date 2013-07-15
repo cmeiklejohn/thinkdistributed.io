@@ -5,7 +5,7 @@
 # Time.zone = "UTC"
 
 activate :blog do |blog|
-  # blog.prefix = "blog"
+  blog.prefix = "blog"
   # blog.permalink = ":year/:month/:day/:title.html"
   # blog.sources = ":year-:month-:day-:title.html"
   # blog.taglink = "tags/:tag.html"
@@ -25,7 +25,8 @@ activate :blog do |blog|
   # blog.page_link = "page/:num"
 end
 
-page "/feed.xml", :layout => false
+page "/blog/*",   :layout => :article_layout
+# page "/feed.xml", :layout => false
 
 ### 
 # Compass
