@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0" >
+    <channel>
+        <title>Think Distributed: A Distributed Systems Podcast</title>
+        <link>http://www.thinkdistributed.io/</link>
+        <language>en-us</language>
+        <copyright>© 2013 Christopher Meiklejohn</copyright>
+        <itunes:subtitle>A Distributed Systems Podcast</itunes:subtitle>
+        <itunes:author>Christopher Meiklejohn</itunes:author>
+        <itunes:summary>A Distributed Systems Podcast</itunes:summary>
+        <description>A Distributed Systems Podcast</description>
+        <item>
+            <title>Consensus</title>
+            <itunes:author>Think Distributed</itunes:author>
+            <itunes:subtitle>The consensus problem in distributed computing. </itunes:subtitle>
+            <itunes:summary>The consensus problem in distributed computing, combined with a discussion on the Raft consensus algorithm.</itunes:summary>
+            <enclosure url="http://thinkdistributedio.data.riakcs.net:8080/Think-Distributed-Consensus.m4a" length="112548233" type="audio/mpeg"/>
+            <guid>http://thinkdistributedio.data.riakcs.net:8080/Think-Distributed-Consensus.m4a</guid>
+            <pubDate>Fri, 12 Jul 2013 19:00:00 GMT</pubDate>
+            <itunes:duration>1:14:40</itunes:duration>
+            <itunes:keywords>distributed systems, technology</itunes:keywords>
+        </item>
+    </channel>
+</rss>
