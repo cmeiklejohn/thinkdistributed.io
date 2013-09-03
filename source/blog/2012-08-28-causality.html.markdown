@@ -14,7 +14,7 @@ A discussion of causality, vector clocks, version vectors, and CRDTs.
 
 ## Video
 
-Coming soon!
+<iframe class="youtube-player" width="640" height="360" src="//www.youtube.com/embed/fZFYAeFv7Ks" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## Panel
 
@@ -44,3 +44,4 @@ Coming soon!
 * [The Potential Dangers of Causal Consistency and an Explicit Solution](http://www.bailis.org/papers/explicit-socc2012.pdf)
 * [Understanding the Limitations of Causally and Totally Ordered Communication](http://cs3.ist.unomaha.edu/~stanw/papers/93-catocs.pdf)
 * [A Response to Cheriton and Skeen's Criticism of Causal and Totally Ordered Communication](http://www.cs.princeton.edu/courses/archive/fall07/cos518/papers/catocs-limits-response.pdf)
+* [Do you even know how vector clocks work? shirt](http://teespring.com/doyouevenknow3)
