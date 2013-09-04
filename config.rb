@@ -63,6 +63,9 @@ page "/blog/*",   :layout => :article_layout
 #   @which_fake_page = "Rendering a fake page with a variable"
 # end
 
+page "/blog/2012/08/28/causality.html", :proxy => "blog/2013-08-28-causality.html"
+page "/blog/2012/07/12/consensus.html", :proxy => "blog/2013-07-12-consensus.html"
+
 ###
 # Helpers
 ###

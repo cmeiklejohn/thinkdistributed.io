@@ -1,6 +1,6 @@
 ---
 title: Causality
-date: 2012-08-28
+date: 2013-08-28
 tags: causality, vector clocks, version vectors
 ---
 

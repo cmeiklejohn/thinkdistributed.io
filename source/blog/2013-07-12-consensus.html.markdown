@@ -1,6 +1,6 @@
 ---
 title: Consensus
-date: 2012-07-12
+date: 2013-07-12
 tags: consensus, raft
 ---
 
