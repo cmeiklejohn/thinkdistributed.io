@@ -7,7 +7,7 @@ tags: distributed systems
 # Live from Strangeloop 2013
 
 A live Q&A session about distributed systems broadcast from Strangeloop
-2013.
+2013 on September 18th, 2013.
 
 ## Audio
 
