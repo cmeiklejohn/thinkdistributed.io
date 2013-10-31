@@ -1,5 +1,5 @@
 /* colors, spaces, utilities */
-$grey: #d3d3d3;
+$grey: #d9d9d9;
 $green: #77FF00;
 $blue: #2D3361;
 
@@ -20,6 +20,10 @@ $space: 20px;
   width: 60%;
 }
 
+.container {
+  width: 100%;
+}
+
 .column2 {
   float: left;
   width: 40%;
@@ -28,7 +32,7 @@ $space: 20px;
 
 .column3 {
   float: left;
-  width: 30%;
+  width: 26%;
   margin: $half_space;
 }
 
@@ -76,8 +80,18 @@ li {
 
 /* article */
 .articles {
-
+  background-color: $grey;
 }
+
+.article-thumb {
+  height: 250px;
+  overflow: hidden;
+  margin: $double_space 60px $double_space 0;
+  h1 {
+    font-size: 160%;
+  }
+}
+
 
 /* footer */
 footer{

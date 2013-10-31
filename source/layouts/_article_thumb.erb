@@ -1,3 +1,5 @@
-<article class="column3">
-  <h1><%= article.title %></h1>
+<article class="column3 article-thumb">
+  <h1><%= link_to article.title.upcase, article.path %></h1>
+  <date><%= article.date.strftime('%D') %></date>
+  <p><%= lorem.paragraph %></p>
 </article>

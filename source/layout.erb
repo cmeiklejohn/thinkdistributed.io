@@ -16,27 +16,6 @@
         <%= yield %>
       </div>
       <%= partial "layouts/footer" %>
-      <aside>
-        <h2>Episodes</h2>
-        <ol>
-          <% blog.articles[0...10].each do |article| %>
-            <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
-          <% end %>
-        </ol>
-
-        <h3>Subscribe</h3>
-        <p>Sign up for our <a href="http://eepurl.com/BK2Ff">mailing
-          list</a> or <a
-          href="http://feeds.soundcloud.com/users/50980903-thinkdistributedio/tracks">RSS
-          audio feed</a> to be notified of new episodes.</p>
-
-        <h3>IRC Channel</h3>
-        <p>Join us in #thinkdistributed on Freenode for live
-        discussions.</p>
-
-        <h3>License and Copyright</h3>
-        <p>The audio and video is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p>
-      </aside>
     </div>
 
     <script type="text/javascript">
