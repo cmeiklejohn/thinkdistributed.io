@@ -2,6 +2,9 @@
 # Blog settings
 ###
 
+#auto refresh browser
+activate :livereload
+
 # Time.zone = "UTC"
 
 activate :blog do |blog|
