@@ -1,7 +1,8 @@
 /* colors, spaces, utilities */
-$grey: #d9d9d9;
+$grey: #EBEBEB;
 $green: #77FF00;
 $blue: #2D3361;
+$teal: #00CFE6;
 
 $double_space: 40px;
 $half_space: 10px;
@@ -24,16 +25,16 @@ $space: 20px;
   width: 100%;
 }
 
-.column2 {
+.column2, .column3 {
   float: left;
-  width: 40%;
-  margin: $half_space;
+}
+
+.column2 {
+  width: 50%;
 }
 
 .column3 {
-  float: left;
-  width: 26%;
-  margin: $half_space;
+  width: 33.333333333333333333333%;
 }
 
 /* basic typography */
@@ -46,19 +47,37 @@ h1 {
   padding: $space 0;
 }
 
+li {
+  display: inline-block;
+  position: relative;
+  list-style: none;
+}
+
+p {
+  line-height: 1.2em;
+}
 
 /* nav header */
 nav {
   width: 100%;
+  li {
+    top: 42.5px;
+    a {
+      font-family: Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      padding: $double_space;
+      color: $blue;
+      text-decoration: none;
+      &:hover {
+        background-color: $green;
+      }
+    }
+  }
 }
 
-li {
-  display: inline-block;
-  list-style: none;
-  padding: 15px 5px;
-}
 
-.logo img{
+
+.logo img {
   float: left;
   width: 10%;
 }
@@ -74,7 +93,6 @@ li {
   .featured {
     padding: 100px;
     position: relative;
-    width: 60%;
   }
 }
 
@@ -86,17 +104,28 @@ li {
 .article-thumb {
   height: 250px;
   overflow: hidden;
-  margin: $double_space 60px $double_space 0;
+  padding: $double_space 60px $double_space 0;
   h1 {
     font-size: 160%;
+    a {
+      color: $teal;
+    }
   }
+  p {
+    margin-top: $space;
+  }
+}
+
+date {
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 90%;
 }
 
 
 /* footer */
 footer{
   background-color: $blue;
-  width: 100%;
   color: white;
   h1 {
     font-size: 120%;
@@ -107,6 +136,9 @@ footer{
   input {
     width: 65%;
     margin: $space 0;
+    padding: $half_space;
+    font-style: italic;
+    font-family: 'Times New Roman', sans-serif;
   }
   section {
     margin-bottom: $space;
