@@ -9,11 +9,13 @@
     <%= stylesheet_link_tag "styles" %>
   </head>
   <body>
-    <div id="container">
+    <div  class="center" id="container">
+      <%= partial "layouts/jumbo" %>
+      <%= partial "layouts/nav" %>
       <div id="main" role="main">
         <%= yield %>
       </div>
-
+      <%= partial "layouts/footer" %>
       <aside>
         <h2>Episodes</h2>
         <ol>

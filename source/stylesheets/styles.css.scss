@@ -1,10 +1,135 @@
-body {
-  font-family: 'EB Garamond', serif;
+/* colors, spaces, utilities */
+$grey: #d3d3d3;
+$green: #77FF00;
+$blue: #2D3361;
+
+$double_space: 40px;
+$half_space: 10px;
+$space: 20px;
+
+.pull-right {
+  float: right;
 }
 
+.center {
+  margin: 0 auto;
+}
+
+/* grid */
+.row {
+  width: 60%;
+}
+
+.column2 {
+  float: left;
+  width: 40%;
+  margin: $half_space;
+}
+
+.column3 {
+  float: left;
+  width: 30%;
+  margin: $half_space;
+}
+
+/* basic typography */
+h1, h2, h3 {
+  font-family: Helvetica, Arial, sans-serif;
+}
+h1 {
+  font-size: 200%;
+  font-weight: 700;
+  padding: $space 0;
+}
+
+
+/* nav header */
+nav {
+  width: 100%;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  padding: 15px 5px;
+}
+
+.logo img{
+  float: left;
+  width: 10%;
+}
+
+/* jumbo */
+.jumbo {
+  position: relative;
+  width: 100%;
+  color: white;
+  background-image: url(../images/jumbo_bg.jpg);
+  background-position: middle center;
+  background-size: cover;
+  .featured {
+    padding: 100px;
+    position: relative;
+    width: 60%;
+  }
+}
+
+/* article */
+.articles {
+
+}
+
+/* footer */
+footer{
+  background-color: $blue;
+  width: 100%;
+  color: white;
+  h1 {
+    font-size: 120%;
+  }
+  a {
+    color: $green;
+  }
+  input {
+    width: 65%;
+    margin: $space 0;
+  }
+  section {
+    margin-bottom: $space;
+  }
+  p {
+    margin: $half_space 0;
+  }
+}
+
+/* media */
 .youtube-player { display: block; margin: 0 auto; }
 
-#container {
-  margin: 0px auto;
-  width: 700px;
+
+
+/** CLEAR FIX
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
 }
