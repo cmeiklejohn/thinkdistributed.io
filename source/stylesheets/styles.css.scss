@@ -71,6 +71,7 @@ p {
   line-height: 2em;
 }
 
+
 /* nav header */
 nav {
   position: relative;
@@ -91,6 +92,9 @@ nav {
         background-color: $green;
       }
     }
+  }
+  i {
+    font-size: 100%;
   }
 }
 
@@ -196,6 +200,11 @@ footer{
   }
   a {
     color: $green;
+    display: inline-block;
+    &.icon {
+      padding: $space;
+      text-decoration: none;
+    }
   }
   input {
     width: 65%;
