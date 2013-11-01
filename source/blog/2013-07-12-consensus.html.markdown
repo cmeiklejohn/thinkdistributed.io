@@ -14,7 +14,7 @@ Ousterhout at Stanford University.
 
 <iframe class="youtube-player" width="640" height="360" src="//www.youtube.com/embed/C8LrUZBxfdw" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-### Panel
+## Panel
 
 * Christopher Meiklejohn, Software Engineer at Basho Technologies
   [twitter](http://twitter.com/cmeik)
@@ -27,7 +27,7 @@ Ousterhout at Stanford University.
 * Andrew Stone, Software Engineer at Basho Technologies
   [twitter](http://twitter.com/andrew_j_stone)
 
-### Show Notes
+## Show Notes
 
 * [Consensus (computer science)](http://en.wikipedia.org/wiki/Consensus_(computer_science))
 * [Impossibility of Distributed Consensus with One Faulty Process](http://cs-www.cs.yale.edu/homes/arvind/cs425/doc/fischer.pdf)
