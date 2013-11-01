@@ -1,7 +1,7 @@
 /* colors, spaces, utilities */
 
 @import url(http://fonts.googleapis.com/css?family=Merriweather:300,300italic,700);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:800,300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800,300italic,300);
 
 $grey: #f0f0f0;
 $green: #b4ff11;
@@ -55,7 +55,7 @@ h1 {
   padding: $space 0;
 }
 
-li {
+nav li, footer li {
   display: inline-block;
   position: relative;
   list-style: none;
@@ -154,8 +154,16 @@ article {
   h1 {
     color: $teal;
   }
-  h2 {
-    display: none;
+  h3 {
+    font-style: italic;
+  }
+  ul, p {
+    text-indent: 3em;
+    font-family: 'Merriweather', 'Times New Roman', serif;
+  }
+  a {
+    color: $teal;
+    line-height: 2em;
   }
 }
 

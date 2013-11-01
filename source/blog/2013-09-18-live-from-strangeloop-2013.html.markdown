@@ -9,15 +9,11 @@ tags: distributed systems
 A live Q&A session about distributed systems broadcast from Strangeloop
 2013 on September 18th, 2013.
 
-## Audio
-
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F111243801"></iframe>
-
-## Video
 
 <iframe class="youtube-player" width="640" height="360" src="//www.youtube.com/embed/2lKBsPNqz0E" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-## Panel
+### Panel
 
 * Christopher Meiklejohn, Software Engineer at Basho Technologies
   [twitter](http://twitter.com/cmeik)
@@ -28,7 +24,7 @@ A live Q&A session about distributed systems broadcast from Strangeloop
 * Reid Draper, Software Engineer at Basho Technologies
   [twitter](http://twitter.com/reiddraper)
 
-## Show Notes
+### Show Notes
 
 * [Time, clocks, and the ordering of events in a distributed system](http://dl.acm.org/citation.cfm?id=359563)
 * [Impossibility of Distributed Consensus with One Faulty Process](http://cs-www.cs.yale.edu/homes/arvind/cs425/doc/fischer.pdf)

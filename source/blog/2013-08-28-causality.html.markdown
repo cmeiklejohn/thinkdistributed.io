@@ -8,15 +8,11 @@ tags: causality, vector clocks, version vectors
 
 A discussion of causality, vector clocks, version vectors, and CRDTs.
 
-## Audio
-
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F108665351"></iframe>
-
-## Video
 
 <iframe class="youtube-player" width="640" height="360" src="//www.youtube.com/embed/fZFYAeFv7Ks" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-## Panel
+### Panel
 
 * Christopher Meiklejohn, Software Engineer at Basho Technologies
   [twitter](http://twitter.com/cmeik)
@@ -27,7 +23,7 @@ A discussion of causality, vector clocks, version vectors, and CRDTs.
 * Marek Zawirski, Graduate Student at UPMC-LIP6 / INRIA Paris
   [twitter](http://twitter.com/zzzawir)
 
-## Show Notes
+### Show Notes
 
 * [Time, clocks, and the ordering of events in a distributed system](http://dl.acm.org/citation.cfm?id=359563)
 * [Vector clock](http://en.wikipedia.org/wiki/Vector_clock)
