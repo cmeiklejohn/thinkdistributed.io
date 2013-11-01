@@ -1,0 +1,8 @@
+<% wrap_layout :layout do %>
+  <%= partial "layouts/jumbo" %>
+  <%= partial "layouts/nav" %>
+  <div id="main" role="main">
+    <%= yield %>
+  </div>
+  <%= partial "layouts/footer" %>
+<% end %>
