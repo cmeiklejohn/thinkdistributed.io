@@ -1,4 +1,8 @@
 /* colors, spaces, utilities */
+
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800,400);
+
 $grey: #EBEBEB;
 $green: #77FF00;
 $blue: #2D3361;
@@ -10,6 +14,10 @@ $space: 20px;
 
 .pull-right {
   float: right;
+}
+
+.pull-left {
+  float: left;
 }
 
 .center {
@@ -39,7 +47,7 @@ $space: 20px;
 
 /* basic typography */
 h1, h2, h3 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 h1 {
   font-size: 200%;
@@ -59,15 +67,20 @@ p {
 
 /* nav header */
 nav {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
   width: 100%;
   li {
-    top: 42.5px;
+    float: left;
     a {
-      font-family: Helvetica, Arial, sans-serif;
+      display: table-cell;
+      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
       font-weight: 700;
-      padding: $double_space;
       color: $blue;
       text-decoration: none;
+      padding: $double_space;
       &:hover {
         background-color: $green;
       }
@@ -77,9 +90,11 @@ nav {
 
 
 
-.logo img {
+.logo {
   float: left;
-  width: 10%;
+  height: 96px;
+  display: table-cell;
+  padding-right: $half_space;
 }
 
 /* jumbo */
@@ -93,6 +108,9 @@ nav {
   .featured {
     padding: 100px;
     position: relative;
+  }
+  &:hover{
+    background-image: url(../images/jumbo_bg_hover.png)
   }
 }
 
@@ -113,18 +131,24 @@ nav {
   }
   p {
     margin-top: $space;
+    font-family: 'Merriweather', 'Times New Roman', serif;
+    line-height: 2em;
+    font-size: 80%
   }
 }
 
 date {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 90%;
 }
 
-#main {
+article {
   h1 {
     color: $teal;
+  }
+  h2 {
+    display: none;
   }
 }
 
@@ -143,13 +167,15 @@ footer{
     margin: $space 0;
     padding: $half_space;
     font-style: italic;
-    font-family: 'Times New Roman', sans-serif;
+    font-family: 'Merriweather', 'Times New Roman', serif;
   }
   section {
     margin-bottom: $space;
   }
   p {
+    font-family: 'Merriweather', 'Times New Roman', serif;
     margin: $half_space 0;
+    font-size: 90%;
   }
 }
 
