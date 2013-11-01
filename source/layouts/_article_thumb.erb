@@ -1,5 +1,9 @@
-<article class="column3 article-thumb">
-  <h1><%= link_to truncate(article.title.upcase, :length=>10), article.path %></h1>
-  <date><%= article.date.strftime('%D') %></date>
-  <p><%= truncate(lorem.paragraph, :length=>200) %></p>
-</article>
+<div class="column3 article-thumb">
+  <div class="mask">
+  </div>
+  <article>
+    <h1><%= link_to truncate(article.title.upcase, :length=>10), article.path %></h1>
+    <date><%= article.date.strftime('%D') %></date>
+    <p><%= truncate(lorem.paragraph, :length=>200) %></p>
+  </article>
+</div>

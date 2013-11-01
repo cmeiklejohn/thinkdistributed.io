@@ -2,6 +2,12 @@
 
 @import url(http://fonts.googleapis.com/css?family=Merriweather:300,300italic,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:800,300italic,300);
+@import "compass";
+
+.mask {
+  z-index: 10;
+  @include background-image(linear-gradient(top, rgba(255,255,255,0) 0%,rgba(240,240,240,1) 76%,rgba(240,240,240,1) 100%));
+}
 
 $grey: #f0f0f0;
 $green: #b4ff11;
@@ -120,6 +126,7 @@ nav {
 }
 
 .article-thumb {
+  position: relative;
   height: 250px;
   overflow: hidden;
   padding: $double_space 0;
@@ -143,6 +150,13 @@ nav {
     font-family: 'Merriweather', 'Times New Roman', serif;
     font-size: 80%
   }
+  .mask, article {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 }
 
 date {
@@ -150,6 +164,7 @@ date {
   font-style: italic;
   font-size: 90%;
 }
+
 
 article {
   h1 {
