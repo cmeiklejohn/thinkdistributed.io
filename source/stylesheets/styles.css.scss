@@ -129,10 +129,6 @@ nav {
   position: relative;
   height: 250px;
   overflow: hidden;
-  padding: $double_space 0;
-  &:nth-child(even) {
-    padding: $double_space $space;
-  }
   h1 {
     font-size: 160%;
     a {
@@ -159,6 +155,9 @@ nav {
   }
   .mask {
     height: 80%;
+  }
+  article {
+    width: 90%;
   }
 }
 
