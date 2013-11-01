@@ -42,7 +42,7 @@ $space: 20px;
 }
 
 .column3 {
-  width: 33.333333333333333333333%;
+  width: 30%;
 }
 
 /* basic typography */
@@ -62,7 +62,7 @@ li {
 }
 
 p {
-  line-height: 1.2em;
+  line-height: 2em;
 }
 
 /* nav header */
@@ -122,17 +122,24 @@ nav {
 .article-thumb {
   height: 250px;
   overflow: hidden;
-  padding: $double_space 60px $double_space 0;
+  padding: $double_space 0;
+  &:nth-child(even) {
+    padding: $double_space $space;
+  }
   h1 {
     font-size: 160%;
     a {
-      color: $teal;
+      color: black;
+      text-decoration: none;
+      &:hover{
+        color: $teal;
+        text-decoration: underline;
+      }
     }
   }
   p {
     margin-top: $space;
     font-family: 'Merriweather', 'Times New Roman', serif;
-    line-height: 2em;
     font-size: 80%
   }
 }
