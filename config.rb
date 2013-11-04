@@ -29,6 +29,7 @@ activate :blog do |blog|
 end
 
 page "/",   :layout => :index_layout
+page "/about.html",   :layout => :article_layout
 page "/blog/*",   :layout => :article_layout
 # page "/feed.xml", :layout => false
 

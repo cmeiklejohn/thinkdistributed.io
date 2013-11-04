@@ -16,7 +16,9 @@ Ousterhout at Stanford University.
 
 ## Panel
 
-* Christopher Meiklejohn, Software Engineer at Basho Technologies
+* ![Alt text](/images/chris-headshot.png) 
+  Christopher Meiklejohn
+  Software Engineer at Basho Technologies
   [twitter](http://twitter.com/cmeik)
 * Justin Sheehy, CTO at Basho Technologies
   [twitter](http://twitter.com/justinsheehy)

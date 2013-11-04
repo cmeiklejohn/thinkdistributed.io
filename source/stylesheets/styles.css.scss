@@ -44,7 +44,10 @@ $space: 20px;
 }
 
 .column2 {
-  width: 50%;
+  width: 47%;
+  &:nth-child(1){
+    margin-right: $space;
+  }
 }
 
 .column3 {
@@ -71,6 +74,10 @@ p {
   line-height: 2em;
 }
 
+h3 {
+  font-weight: 700;
+  text-indent: 3em;
+}
 
 /* nav header */
 nav {
@@ -189,6 +196,11 @@ article {
   }
 }
 
+/* about */
+.facepanel {
+  width: 100%;
+}
+
 /* footer */
 footer{
   padding: $space 0 $double_space 0;
@@ -204,6 +216,7 @@ footer{
     &.icon {
       padding: $space;
       text-decoration: none;
+
     }
   }
   input {
