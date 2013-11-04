@@ -72,11 +72,13 @@ nav li, footer li {
 
 p {
   line-height: 2em;
+  font-family: 'Merriweather', 'Times New Roman', serif;
 }
 
 h3 {
   font-weight: 700;
   text-indent: 3em;
+  padding: 40px 0 20px 0;
 }
 
 /* nav header */
@@ -118,16 +120,24 @@ nav {
 .jumbo {
   position: relative;
   width: 100%;
-  color: white;
-  background-image: url(../images/jumbo_bg.jpg);
+  &.index {
+    color: white;
+    background-image: url(../images/jumbo_bg.jpg);  
+    &:hover{
+      background-image: url(../images/jumbo_bg_hover.png)
+    }
+  } 
+  &.about {
+    h1 {
+      font-weight: 400;
+    }
+    background-image: url(../images/about_bg.png);
+  } 
   background-position: middle center;
   background-size: cover;
   .featured {
     padding: 100px;
     position: relative;
-  }
-  &:hover{
-    background-image: url(../images/jumbo_bg_hover.png)
   }
 }
 
@@ -152,9 +162,7 @@ nav {
     }
   }
   p {
-    text-indent: 0em;
     margin-top: $space;
-    font-family: 'Merriweather', 'Times New Roman', serif;
     font-size: 80%
   }
   .mask, article {
@@ -184,9 +192,10 @@ article {
     color: $teal;
   }
   h2 {
+    padding: $space 0;
     font-style: italic;
   }
-  ul, p {
+  ul{
     text-indent: 3em;
     font-family: 'Merriweather', 'Times New Roman', serif;
   }
@@ -230,7 +239,6 @@ footer{
     margin-bottom: $space;
   }
   p {
-    font-family: 'Merriweather', 'Times New Roman', serif;
     margin: $half_space 0;
     font-size: 90%;
   }
@@ -238,8 +246,6 @@ footer{
 
 /* media */
 .youtube-player { display: block; margin: 0 auto; }
-
-
 
 /** CLEAR FIX
  * For modern browsers
