@@ -19,15 +19,15 @@ Ousterhout at Stanford University.
 * ![Alt text](/images/chris-headshot.png) 
   Christopher Meiklejohn
   Software Engineer at Basho Technologies
-  [twitter](http://twitter.com/cmeik)
+  [<i class="icon-social-twitter"></i>](http://twitter.com/cmeik)
 * Justin Sheehy, CTO at Basho Technologies
-  [twitter](http://twitter.com/justinsheehy)
+  [<i class="icon-social-twitter"></i>](http://twitter.com/justinsheehy)
 * Peter Bailis, Graduate Student at UC Berkeley
-  [twitter](http://twitter.com/pbailis)
+  [<i class="icon-social-twitter"></i>](http://twitter.com/pbailis)
 * Diego Ongaro, Graduate Student at Stanford University
-  [twitter](http://twitter.com/ongardie)
+  [<i class="icon-social-twitter"></i>](http://twitter.com/ongardie)
 * Andrew Stone, Software Engineer at Basho Technologies
-  [twitter](http://twitter.com/andrew_j_stone)
+  [<i class="icon-social-twitter"></i>](http://twitter.com/andrew_j_stone)
 
 ## Show Notes
 

@@ -15,13 +15,13 @@ A discussion of causality, vector clocks, version vectors, and CRDTs.
 ## Panel
 
 * Christopher Meiklejohn, Software Engineer at Basho Technologies
-  [twitter](http://twitter.com/cmeik)
+  [<i class="icon-social-twitter"></i>](http://twitter.com/cmeik)
 * Peter Bailis, Graduate Student at UC Berkeley
-  [twitter](http://twitter.com/pbailis)
+  [<i class="icon-social-twitter"></i>](http://twitter.com/pbailis)
 * Carlos Baquero, HASLab, INESC Tec and Universidade do Minho
-  [twitter](http://twitter.com/xmal)
+  [<i class="icon-social-twitter"></i>](http://twitter.com/xmal)
 * Marek Zawirski, Graduate Student at UPMC-LIP6 / INRIA Paris
-  [twitter](http://twitter.com/zzzawir)
+  [<i class="icon-social-twitter"></i>](http://twitter.com/zzzawir)
 
 ## Show Notes
 

@@ -16,13 +16,13 @@ A live Q&A session about distributed systems broadcast from Strangeloop
 ## Panel
 
 * Christopher Meiklejohn, Software Engineer at Basho Technologies
-  [twitter](http://twitter.com/cmeik)
+  [<i class="icon-social-twitter"></i>](http://twitter.com/cmeik)
 * Kyle Kingsbury, Engineer at Factual
-  [twitter](http://twitter.com/aphyr)
+  [<i class="icon-social-twitter"></i>](http://twitter.com/aphyr)
 * Sean Cribbs, Software Engineer at Basho Technologies
-  [twitter](http://twitter.com/seancribbs)
+  [<i class="icon-social-twitter"></i>](http://twitter.com/seancribbs)
 * Reid Draper, Software Engineer at Basho Technologies
-  [twitter](http://twitter.com/reiddraper)
+  [<i class="icon-social-twitter"></i>](http://twitter.com/reiddraper)
 
 ## Show Notes
 
