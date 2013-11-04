@@ -10,11 +10,20 @@
     <%= stylesheet_link_tag "ionicons" %>
   </head>
   <body>
-    <div  class="center" id="container">
+    <div class="center" id="container">
       <%= yield %>
     </div>
 
-
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script type="text/javascript" src="http://stratus.sc/stratus.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $.stratus({
+          align: 'top',
+          links: 'http://soundcloud.com/foofighters/sets/wasting-light'
+        });
+      });
+    </script>
     <script type="text/javascript">
       var _gauges = _gauges || [];
       (function() {
