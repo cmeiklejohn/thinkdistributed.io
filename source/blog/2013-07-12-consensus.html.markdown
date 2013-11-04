@@ -10,9 +10,9 @@ A discussion about the problem of consensus in distributed computing,
 focusing on the Raft algorithm developed by Diego Ongaro and John
 Ousterhout at Stanford University.
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F100811088"></iframe>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/100811088&amp;color=2489a5&amp;auto_play=false&amp;theme_color=f0f0f0&amp;sharing=true "></iframe>
 
-<iframe class="youtube-player" width="640" height="360" src="//www.youtube.com/embed/C8LrUZBxfdw" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe class="youtube-player" src="//www.youtube.com/embed/C8LrUZBxfdw?showinfo=0&amp;color=ffffff&amp;rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 ## Panel
 
