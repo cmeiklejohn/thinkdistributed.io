@@ -70,6 +70,10 @@ nav li, footer li {
   list-style: none;
 }
 
+nav li.icons:nth-child(1) {
+  border-right: 1px $grey solid;
+}
+
 p {
   line-height: 2em;
   font-family: 'Merriweather', 'Times New Roman', serif;
@@ -82,11 +86,14 @@ h3 {
 }
 
 /* nav header */
+.nav-container {
+  border-bottom: 1px solid $grey;
+}
+
 nav {
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
-  border: 1px solid transparent;
   width: 100%;
   li {
     float: left;
@@ -143,16 +150,19 @@ nav {
 
 /* article */
 .articles {
+  padding: $double_space 0;
   background-color: $grey;
 }
 
 .article-thumb {
   position: relative;
-  height: 250px;
+  height: 300px;
   overflow: hidden;
   h1 {
+    padding-bottom: $half_space;
     font-size: 160%;
     a {
+      line-height: 3em;
       color: black;
       text-decoration: none;
       &:hover{
@@ -169,8 +179,8 @@ nav {
     width: 100%;
     height: 100%;
     position: absolute;
-    bottom: 0;
     left: 0;
+    bottom: 0;
   }
   .mask {
     height: 80%;
@@ -194,8 +204,10 @@ article {
     padding-bottom: $half_space;
   }
   h2 {
-    padding: 0 0 $space 0;
+    padding: $double_space 0 $half_space 0;
+    margin-bottom: $space;
     font-style: italic;
+    border-bottom: 2px $grey solid;
   }
   ul{
     text-indent: 3em;
@@ -204,6 +216,9 @@ article {
   a {
     color: $teal;
     line-height: 2em;
+  }
+  p {
+    padding-bottom: $space;
   }
 }
 
