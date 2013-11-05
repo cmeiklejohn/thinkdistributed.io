@@ -117,7 +117,7 @@ nav {
       text-decoration: none;
       padding: $double_space;
       &:hover {
-        background-color: $green;
+        background: $green;
       }
     }
   }
@@ -163,7 +163,7 @@ nav {
 /* article */
 .articles {
   padding: $double_space 0;
-  background-color: $grey;
+  background: $grey;
 }
 
 .article-thumb {
@@ -259,7 +259,7 @@ article {
 /* footer */
 footer{
   padding-right: $double_space;
-  background-color: $blue;
+  background: $blue;
   color: white;
   h1 {
     font-size: 120%;
