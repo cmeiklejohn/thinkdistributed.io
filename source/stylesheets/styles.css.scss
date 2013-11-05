@@ -81,11 +81,6 @@ h3 {
   padding: 40px 0 20px 0;
 }
 
-/* bump body for audio player */
-body {
-  padding-top: 30px;
-}
-
 /* nav header */
 nav {
   position: relative;
@@ -193,11 +188,13 @@ date {
 
 
 article {
+  padding-bottom: $double_space;
   h1 {
     color: $teal;
+    padding-bottom: $half_space;
   }
   h2 {
-    padding: $space 0;
+    padding: 0 0 $space 0;
     font-style: italic;
   }
   ul{
@@ -217,20 +214,22 @@ article {
 
 /* footer */
 footer{
-  padding: $space 0 $double_space 0;
+  padding-right: $double_space;
   background-color: $blue;
   color: white;
   h1 {
     font-size: 120%;
     margin: $space 0;
   }
+  ul {
+    border-bottom: $grey 2px;
+  }
   a {
     color: $green;
     display: inline-block;
     &.icon {
-      padding: $space;
+      padding: $space $double_space $space 0;
       text-decoration: none;
-
     }
   }
   input {
