@@ -32,7 +32,7 @@ $space: 20px;
 
 /* grid */
 .row {
-  width: 60%;
+  width: 70%;
 }
 
 .container {
@@ -46,7 +46,7 @@ $space: 20px;
 .column2 {
   width: 47%;
   &:nth-child(1){
-    margin-right: $space;
+    margin-right: $double_space;
   }
 }
 
