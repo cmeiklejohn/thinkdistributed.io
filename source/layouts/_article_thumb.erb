@@ -4,6 +4,6 @@
   <article>
     <h1 class="truncate"><%= link_to article.title.upcase, article.path %></h1>
     <date><%= article.date.strftime('%D') %></date>
-    <p><%= truncate(lorem.paragraph, :length=>200) %></p>
+    <p><%= article.summary(250, '>>') %></p>
   </article>
 </div>
