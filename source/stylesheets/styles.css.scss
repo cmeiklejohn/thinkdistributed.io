@@ -3,7 +3,6 @@
 @import url("./fonts/merriweather/merriweather.css");
 @import url("./fonts/opensans/opensans.css");
 @import url("./fonts/ionicons/ionicons.css");
-@import url("./responsive.css.scss");
 @import "compass";
 
 .mask {
@@ -30,6 +29,13 @@ $space: 20px;
 
 .center {
   margin: 0 auto;
+}
+
+.truncate {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* grid */
