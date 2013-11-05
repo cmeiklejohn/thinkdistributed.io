@@ -1,0 +1,44 @@
+---
+title: Consensus
+date: 2013-07-12
+tags: consensus, raft
+---
+:markdown
+  # Consensus
+
+  A discussion about the problem of consensus in distributed computing, focusing on the Raft algorithm developed by Diego Ongaro and John Ousterhout at Stanford University.
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/100811088&amp;color=2489a5&amp;auto_play=false&amp;theme_color=f0f0f0&amp;sharing=true "></iframe>
+
+<iframe class="youtube-player" src="//www.youtube.com/embed/C8LrUZBxfdw?showinfo=0&amp;color=ffffff&amp;rel=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+  
+%h2 Panel
+- panel = [{:name=> "Christopher Meiklejohn", :title=> "Software Engineer at Basho Technologies", :twitter=>"cmeik"}, {:name=> "Justin Sheehy", :title=> "CTO at Basho Technologies", :twitter=>"justinsheehy"}, {:name=> "Peter Bailis", :title=> "Graduate Student at UC Berkeley", :twitter=>"pbailis"}, {:name=> "Diego Ongaro", :title=> "Graduate Student at Stanford University", :twitter=>"ongardie"}, {:name=> "Andrew Stone", :title=> "Software Engineer at Basho Technologies", :twitter=>"andrew_j_stone"}]
+
+%ul
+  - panel.each do |member|
+    = partial "layouts/panel_member", :locals=>{:member => member}
+
+:markdown
+  ## Show Notes
+
+  * [Consensus (computer science)](http://en.wikipedia.org/wiki/Consensus_(computer_science))
+  * [Impossibility of Distributed Consensus with One Faulty Process](http://cs-www.cs.yale.edu/homes/arvind/cs425/doc/fischer.pdf)
+  * [Paxos (computer science)](http://en.wikipedia.org/wiki/Paxos_(computer_science))
+  * [Apache Zookeeper](http://zookeeper.apache.org)
+  * [ZAB](http://zookeeper.apache.org/doc/r3.2.2/zookeeperInternals.html)
+  * [In Search of an Understandable Consensus Algorithm](https://ramcloud.stanford.edu/wiki/download/attachments/11370504/raft.pdf)
+  * [Linearizability](https://en.wikipedia.org/wiki/Linearizability)
+  * [State Machine Replication](http://en.wikipedia.org/wiki/State_machine_replication)
+  * [Safety and Liveness: Eventual Consistency is not Safe](http://www.bailis.org/blog/safety-and-liveness-eventual-consistency-is-not-safe/)
+  * [RAMCloud](https://ramcloud.stanford.edu)
+  * [The Chubby Lock Service for Loosely-Coupled Distributed Systems](http://research.google.com/archive/chubby.html)
+  * [openreplica](http://openreplica.org)
+  * [CAP Theorem](http://en.wikipedia.org/wiki/CAP_theorem)
+  * [Rafter](https://github.com/andrewjstone/rafter)
+  * [Orleans: A Framework For Cloud Computing](http://research.microsoft.com/en-us/projects/orleans)
+  * [Raft lecture](http://www.youtube.com/watch?v=YbZ3zDzDnrw)
+  * [Spanner: Google's Globally-Distributed Database](http://research.google.com/archive/spanner.html)
+  * [Bloom](http://www.bloom-lang.net)
+  * [Paxos Made Live: An Engineering Perspective](http://dl.acm.org/citation.cfm?id=1281103)
+  * [Paxos Made Simple](http://www.cs.utexas.edu/users/lorenzo/corsi/cs380d/past/03F/notes/paxos-simple.pdf)
