@@ -18,6 +18,9 @@ GEM
       multi_json (~> 1.0)
     ffi (1.9.0)
     fssm (0.2.10)
+    gravatar-ultimate (2.0.0)
+      activesupport (>= 2.3.14)
+      rack
     haml (4.0.3)
       tilt
     hike (1.2.3)
@@ -93,5 +96,6 @@ PLATFORMS
 
 DEPENDENCIES
   builder (~> 3.0.0)
+  gravatar-ultimate
   middleman (~> 3.1.3)
   middleman-blog (~> 3.2.0)
