@@ -268,7 +268,7 @@ footer{
   color: white;
   h1 {
     font-size: 120%;
-    margin: $space 0;
+    margin: $half_space 0 0 0;
   }
   ul {
     border-bottom: $grey 2px;
@@ -277,7 +277,7 @@ footer{
     color: $green;
     display: inline-block;
     &.icon {
-      padding: $space $double_space $space 0;
+      padding: $half_space $double_space $space 0;
       text-decoration: none;
     }
   }
@@ -292,7 +292,7 @@ footer{
     margin-bottom: $space;
   }
   p {
-    margin: $half_space 0;
+    margin: 0;
     font-size: 90%;
   }
 }
