@@ -235,11 +235,20 @@ article {
 
 .bio{
   h1 {
-    padding-top: 0;
+    padding: 0;
+    line-height: 1em;
     color: black;
     font-weight: 400;
   }
-  margin-left: $double_space;
+  h2 {
+    border: none;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  margin: 0 0 0 $double_space;
+
 }
 
 /* about */
