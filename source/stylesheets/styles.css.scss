@@ -236,15 +236,18 @@ article {
   p {
     padding-bottom: $space;
   }
-}
-
-#disqus_thread  {
-  margin-bottom: $space;
-}
-
-/* about */
-.facepanel {
-  width: 100%;
+  img {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    padding: 4px;
+    line-height: 1.428571429;
+    background-color: #ffffff;
+    border: 1px solid $grey;
+    border-radius: 4px;
+    -webkit-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+  }
 }
 
 .bio{
@@ -264,6 +267,17 @@ article {
   margin: 0 0 0 $double_space;
 
 }
+
+#disqus_thread  {
+  margin-bottom: $space;
+}
+
+/* about */
+.facepanel {
+  width: 100%;
+}
+
+
 
 /* footer */
 footer{
