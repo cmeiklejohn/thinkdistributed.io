@@ -80,7 +80,7 @@ h1, h2, h3 {
 h1 {
   font-size: 200%;
   font-weight: 700;
-  padding: $space 0;
+  padding: $half_space 0;
 }
 
 nav li, footer li {
@@ -175,11 +175,15 @@ nav {
   position: relative;
   height: 300px;
   overflow: hidden;
+  h2 {
+    position: relative;
+    top: $double_space;
+  }
   h1 {
-    padding-bottom: $half_space;
     font-size: 160%;
+    position: relative;
+    top: $space;
     a {
-      line-height: 3em;
       color: black;
       text-decoration: none;
       &:hover{
@@ -189,7 +193,7 @@ nav {
     }
   }
   p {
-    margin-top: $space;
+    padding: 0;
     font-size: 80%
   }
   .mask, article {
