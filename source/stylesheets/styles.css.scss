@@ -177,6 +177,13 @@ nav[role=navigation].active {
   background-size: cover;
   .featured {
     padding: 100px 0;
+    a {
+      color: white;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
 
