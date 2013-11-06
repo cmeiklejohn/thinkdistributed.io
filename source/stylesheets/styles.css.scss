@@ -158,15 +158,10 @@ nav[role=navigation] {
 
 nav[role=navigation].active {
       max-height: 15em;
-      li{
-        display: block;
-        float: none;
-      }
     }
 
 /* jumbo */
 .jumbo {
-  position: relative;
   width: 100%;
   &.index {
     color: white;
@@ -181,8 +176,7 @@ nav[role=navigation].active {
   background-position: middle center;
   background-size: cover;
   .featured {
-    padding: 100px;
-    position: relative;
+    padding: 100px 0;
   }
 }
 

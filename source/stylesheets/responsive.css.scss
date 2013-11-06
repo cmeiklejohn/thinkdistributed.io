@@ -1,12 +1,19 @@
-@media (max-width: 960px) {
-  .row {
-    width: 90%;
-  }
-  .column2, .column3 {
-    width: 100%;
-    float: none;
-    display: block;
-  }  
+@media (max-width: 48.25em) {
+      /* grid */
+      .row {
+        width: 80%;
+      }
+      .column2, .column3 {
+        width: 100%;
+        float: none;
+        display: block;
+      }
+      .featured {
+        margin: 0 auto;
+      }
+      .logo {
+        display:none;
+      }  
 }
 
 @media (max-width: 640px) {
@@ -18,8 +25,10 @@
 }
 
     @media screen and (min-width: 48.25em) {
-      a.menu-link, a.resplogo {
+      /* collapsible menu */
+      nav.respmenu {
          display: none;
+         bottom: 0;
       }
       .js nav[role=navigation] {
         max-height: none;
