@@ -16,3 +16,24 @@
     display: block;
   }  
 }
+
+    @media screen and (min-width: 48.25em) {
+      a.menu-link, a.resplogo {
+         display: none;
+      }
+      .js nav[role=navigation] {
+        max-height: none;
+      }
+      nav[role=navigation] ul {
+        margin: 0 0 0 -0.25em;
+        border: 0;
+      }
+      
+      nav[role=navigation]  li {
+        display: inline-block;
+        margin: 0 0.25em;
+      }
+      nav[role=navigation] li a {
+        border: 0;
+      }
+    }

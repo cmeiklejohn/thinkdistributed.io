@@ -1,12 +1,12 @@
 <div class="nav-container">
-  <nav class="row center cf">
-    <a href="/"><%= image_tag 'logo.png', :class=>'logo' %></a>
-    <ul class="pull-left">
-      <li><a href="/about.html">ABOUT THE SHOW</a></li>
-    </ul>
-      <ul class="pull-right">
-        <li class="icons"><a target="_blank" href="https://twitter.com/TDistributed"><i class="fa fa-twitter fa-lg"></i></i></a></li>
-        <li class="icons"><a target="_blank" href="http://feeds.soundcloud.com/users/50980903-thinkdistributedio/tracks"><i class="fa fa-rss fa-lg"></i></a></li>
+<a href="#menu" class="menu-link"><i class="fa fa-bars fa-lg"></i></a>
+<a class='resplogo' href="#"><%= image_tag 'logo.png' %></a>
+    <nav id="menu" role="navigation" class="row center">
+      <ul>
+        <li class="pull-left"><a class='logo' href="#"><%= image_tag 'logo.png' %></a></li>
+        <li class="pull-left"><a href="/about.html">ABOUT THE SHOW</a></li>
+        <li class="icons pull-right"><a target="_blank" href="http://feeds.soundcloud.com/users/50980903-thinkdistributedio/tracks"><i class="fa fa-rss fa-lg"></i></a></li>
+        <li class="icons pull-right"><a target="_blank" href="https://twitter.com/TDistributed"><i class="fa fa-twitter fa-lg"></i></a></li>
       </ul>
-  </nav>
+    </nav>
 </div>

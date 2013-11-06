@@ -112,11 +112,9 @@ h3 {
 
 nav {
   position: relative;
-  min-height: 50px;
-  margin-bottom: 20px;
   width: 100%;
+  margin: 0 auto;
   li {
-    float: left;
     a {
       display: table-cell;
       font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -134,14 +132,37 @@ nav {
   }
 }
 
-
-
-.logo {
-  float: left;
-  height: 96px;
-  display: table-cell;
-  padding-right: $half_space;
+.logo, .resplogo {
+  padding: 0;
+  img {
+    height: 95px;
+  }
 }
+
+a.menu-link {
+  float: right;
+  padding: $double_space;
+}
+
+nav[role=navigation] {
+  -webkit-transition: all 0.3s ease-out;  
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.js nav[role=navigation] {
+  overflow: hidden;
+  max-height: 0;
+}
+
+nav[role=navigation].active {
+      max-height: 15em;
+      li{
+        display: block;
+        float: none;
+      }
+    }
 
 /* jumbo */
 .jumbo {
