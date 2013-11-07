@@ -7,7 +7,7 @@
 
 .mask {
   z-index: 10;
-  @include background-image(linear-gradient(top, rgba(255,255,255,0) 0%,rgba(240,240,240,1) 76%,rgba(240,240,240,1) 100%));
+  @include background-image(linear-gradient(top, rgba(255,255,255,0) 0%,rgba(240,240,240,1) 85%,rgba(240,240,240,1) 100%));
 }
 
 $grey: #f0f0f0;
@@ -15,9 +15,9 @@ $green: #b4ff11;
 $blue: #172d43;
 $teal: #2489a5;
 
-$double_space: 40px;
-$half_space: 10px;
-$space: 20px;
+$double_space: 2.500em;
+$half_space: 0.625em;
+$space: 1.250em;
 
 .pull-right {
   float: right;
@@ -197,14 +197,8 @@ nav[role=navigation].active {
   position: relative;
   height: 300px;
   overflow: hidden;
-  h2 {
-    position: relative;
-    top: $double_space;
-  }
   h1 {
     font-size: 160%;
-    position: relative;
-    top: $space;
     a {
       color: black;
       text-decoration: none;
@@ -218,7 +212,7 @@ nav[role=navigation].active {
     padding: 0;
     font-size: 80%
   }
-  .mask, article {
+  .mask {
     width: 100%;
     height: 100%;
     position: absolute;
