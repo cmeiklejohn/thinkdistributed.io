@@ -2,6 +2,7 @@
   <%= partial "layouts/nav" %>
   <div id="main" role="main" class="center row">
     <article>
+      <h1><%= page_articles.first.title %></h1>
       <%= yield %>
     </article>
     <%= partial "layouts/comments" %>

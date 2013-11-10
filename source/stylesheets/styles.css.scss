@@ -198,7 +198,7 @@ nav[role=navigation].active {
   height: 300px;
   overflow: hidden;
   h1 {
-    font-size: 160%;
+    font-size: 120%;
     a {
       color: black;
       text-decoration: none;
@@ -209,7 +209,7 @@ nav[role=navigation].active {
     }
   }
   p {
-    padding: 0;
+    padding: 5px 0;
     font-size: 80%
   }
   .mask {
@@ -231,6 +231,7 @@ date {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 90%;
+  border: 1px solid black;
 }
 
 
