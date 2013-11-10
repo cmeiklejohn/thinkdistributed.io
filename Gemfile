@@ -8,3 +8,5 @@ gem "builder", "~> 3.0.0"
 
 gem "gravatar-ultimate"
 gem "middleman-livereload"
+
+ruby '2.0.0'
