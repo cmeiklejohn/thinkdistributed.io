@@ -164,8 +164,10 @@ nav[role=navigation].active {
 .jumbo {
   width: 100%;
   &.index {
+    text-shadow: 2px 1px #000000;
     color: white;
-    background-image: url(../images/jumbo_bg.jpg);
+    opacity: 50%;
+    background-image: url(../images/jumbo_bg2.jpg);
   }
   &.about {
     h1 {
