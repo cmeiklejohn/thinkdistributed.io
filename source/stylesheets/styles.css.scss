@@ -165,18 +165,18 @@ nav[role=navigation].active {
   width: 100%;
   &.index {
     color: white;
-    background-image: url(../images/jumbo_bg.jpg);  
-  } 
+    background-image: url(../images/jumbo_bg.jpg);
+  }
   &.about {
     h1 {
       font-weight: 400;
     }
     background-image: url(../images/about_bg.png);
-  } 
+  }
   background-position: middle center;
   background-size: cover;
   .featured {
-    padding: 100px 0;
+    padding: 75px 0;
     a {
       color: white;
       text-decoration: none;
