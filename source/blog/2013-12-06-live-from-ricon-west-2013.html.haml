@@ -1,0 +1,20 @@
+---
+title: Live from RICON|West 2013
+date: 2013-12-06
+tags: distributed systems
+---
+
+%p Live session about distributed systems broadcast from RICON|West 2013.
+
+READMORE
+
+%h2 Audio
+
+<iframe class="soundcloud" width="80%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/123631362&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>
+
+%h2 Panel
+- panel = [ {:name=> "Christopher Meiklejohn", :title=> "Software Engineer at Basho Technologies", :twitter=>"cmeik", :email => 'christopher.meiklejohn@gmail.com'}, {:name=> "Andy Gross", :title=> "Chief Architect at Basho Technologies", :twitter=>"argv0", :email => 'andy@basho.com'}, {:name=> "Joseph Blomstedt", :title=> "Senior Software Engineer at Basho Technologies", :twitter=>"jtuple", :email => 'joe@basho.com'}, {:name=> "Peter Bailis", :title=> "Graduate Student at UC Berkeley", :twitter=>"pbailis", :email => 'pbailis@cs.berkeley.edu'}, {:name=> "Peter Alvaro", :title=> "Graduate Student at UC Berkeley", :twitter=>"palvaro", :email => 'palvaro@gmail.com'}, {:name=> "Jeff Hodges", :title=> "Engineer at Twitter", :twitter=>"jmhodges", :email => ''} ]
+
+%ul
+  - panel.each do |member|
+    = partial "layouts/panel_member", :locals=>{:member => member}
